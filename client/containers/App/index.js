@@ -5,15 +5,15 @@ import './style.css';
 class App extends Component {
 
     render() {
+        let myprops = [1,2];
+        let copyprops = {...myprops};
 
         return (
             <div className="viewport">
-              hello hahahahvxcvaha
+
             </div>
         );
     }
 }
-
-
 
 export default App;
